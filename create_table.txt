@@ -1,0 +1,7 @@
+CREATE TABLE sp500 (
+    ticker      varchar(8) CONSTRAINT firstkey PRIMARY KEY,
+    name        varchar(50) NOT NULL,
+    sector      varchar(30) NOT NULL,
+    subsector   varchar(30) NOT NULL
+);
+    
